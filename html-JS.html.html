@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projetCSS.css">
+    <title>Interactive Photo Gallery</title>
+
+</head>
+
+<body>
+
+    <div id="gallery">
+        <img src="image1.jpg" alt="Image 1" onmouseover="previewImage(this)" onmouseout="resetPreview()">
+        <img src="image2.jpg" alt="Image 2" onmouseover="previewImage(this)" onmouseout="resetPreview()">
+        <img src="image3.jpg" alt="Image 3" onmouseover="previewImage(this)" onmouseout="resetPreview()">
+    </div>
+
+    <div id="preview">
+        <p>Hover over an image below to display here</p>
+    </div>
+
+    <script src="devoirJS.js"></script>
+</body>
+
+</html>
